@@ -16,4 +16,8 @@ more likely to be adopted.
 the adopted animal column barely changed, but the not adopted animal column lost 2000ish animals.
 * I thought this was really intersting, so I made a new binary column for if they have a birthday.
 
+* used a -1 placeholder for missing ages in Age at Outcome and I will combine this with the has_date_of_birth column so the support vector machine can seperate the missing entries with the normal entries for the predictive model
+
+*one hot encoded the qualitative values based on their cardinality.
+
 ## Sulove's chosen dataset and notes
